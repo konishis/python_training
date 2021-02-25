@@ -5,13 +5,10 @@
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
-
     "python.pythonPath": "c:\\Users\\jas_konishis\\work\\Python\\python_training\\wwwproject\\.venv\\Scripts\\python.exe",
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     //"python.linting.lintOnSave": true,
-
-    
 }
