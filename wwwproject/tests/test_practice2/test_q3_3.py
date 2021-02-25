@@ -11,27 +11,27 @@ q3_3【難】
 ボーナスからいくら返せばよいかを表示するプログラムを作成せよ．
 """
 
-from wwwproject.practice2 import q3_3
+# from wwwproject.practice2 import q3_3
 
 
-def test_1():
-    q3_3.debtperson.debt = 500000
-    q3_3.debtperson.monthrepayament = 10000
-    result = q3_3.repaymentyears()
-    assert result == 50
+# def test_1():
+#     q3_3.debtperson.debt = 500000
+#     q3_3.debtperson.monthrepayament = 10000
+#     result = q3_3.repaymentyears()
+#     assert result == 50
 
 
-def test_2():
-    q3_3.debtperson.debt = 500000
-    q3_3.debtperson.monthrepayament = 10000
-    q3_3.debtperson.bonus = 50000
-    result = q3_3.bonusrepaymentboost()
-    assert result == (500000 / (10000 * 12)) - (500000 / ((10000 * 12) + 50000))
+# def test_2():
+#     q3_3.debtperson.debt = 500000
+#     q3_3.debtperson.monthrepayament = 10000
+#     q3_3.debtperson.bonus = 50000
+#     result = q3_3.bonusrepaymentboost()
+#     assert result == (500000 / (10000 * 12)) - (500000 / ((10000 * 12) + 50000))
 
 
-def test_3():
-    q3_3.debtperson.debt = 500000
-    q3_3.debtperson.monthrepayament = 10000
-    q3_3.debtperson.targetyear = 2
-    result = q3_3.repaymentinbonus()
-    assert result == 500000 / 24 - 10000
+# def test_3():
+#     q3_3.debtperson.debt = 500000
+#     q3_3.debtperson.monthrepayament = 10000
+#     q3_3.debtperson.targetyear = 2
+#     result = q3_3.repaymentinbonus()
+#     assert result == 500000 / 24 - 10000
