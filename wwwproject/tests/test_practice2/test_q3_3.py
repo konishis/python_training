@@ -24,9 +24,9 @@ def test_1():
 def test_2():
     q3_3.debtperson.debt = 500000
     q3_3.debtperson.monthrepayament = 10000
-    q3_3.debtperson.bonus = 10000
-    result = q3_3.bonusrepaymentboost() // まちがい
-    assert result == (500000 / 10000 / 12) - (500000 / 20000 / 12)
+    q3_3.debtperson.bonus = 50000
+    result = q3_3.bonusrepaymentboost()
+    assert result == (500000 / (10000 * 12)) - (500000 / ((10000 * 12) + 50000))
 
 
 def test_3():
